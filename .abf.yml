@@ -1,2 +1,4 @@
+removed_sources:
+  Test-EOL-0.9.tar.gz: 0dd20d56b8968ab89a006091b9a63408036f6c38
 sources:
-  "Test-EOL-0.9.tar.gz": 0dd20d56b8968ab89a006091b9a63408036f6c38
+  Test-EOL-1.5.tar.gz: 7b29b18fdf0fa8d8fe49b5c9fdc6cc7c5e619de9

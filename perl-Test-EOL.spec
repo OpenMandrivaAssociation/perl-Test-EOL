@@ -1,15 +1,15 @@
 %define upstream_name    Test-EOL
-%define upstream_version 0.9
+%define upstream_version 1.5
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 1.5
+Release:	1
 
 Summary:	Check the correct line endings in your project
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-EOL-1.5.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(File::Find)
@@ -51,4 +51,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Tue Aug 24 2010 Jérôme Quelin <jquelin@mandriva.org> 0.900.0-1mdv2011.0
 + Revision: 572786
 - import perl-Test-EOL
+
 

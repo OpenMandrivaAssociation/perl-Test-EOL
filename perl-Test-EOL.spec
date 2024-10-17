@@ -8,7 +8,7 @@ Release:	3
 Summary:	Check the correct line endings in your project
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Test/Test-EOL-1.5.tar.gz
 
 BuildRequires:	perl-devel

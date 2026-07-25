@@ -1,15 +1,15 @@
 %define upstream_name    Test-EOL
-%define upstream_version 1.5
+%define upstream_version 2.02
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 1.5
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Check the correct line endings in your project
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/Test-EOL-1.5.tar.gz
+Url:		https://github.com/karenetheridge/Test-EOL
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/Test-EOL-2.02.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel

@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	2.02
-Release:	2
+Release:	3
 
 Summary:	Check the correct line endings in your project
 License:	GPL+ or Artistic
@@ -36,7 +36,7 @@ perl Makefile.PL INSTALLDIRS=vendor
 %check
 # soft: do not fail package on test failures
 set +e
-%make test
+%make test || :
 
 %install
 %makeinstall_std

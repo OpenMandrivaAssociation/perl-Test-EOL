@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	2.02
-Release:	11
+Release:	1
 
 Summary:	Check the correct line endings in your project
 License:	GPL+ or Artistic
@@ -31,18 +31,18 @@ modules, etc) for the presence of windows line endings.
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
-%make
-
+%make_build
 %check
 # soft: do not fail package on test failures
 set +e
+make test || :
 %make test || :
 
 %install
 %makeinstall_std
 
 %files
-%doc Changes META.yml LICENSE README META.json
+%doc Changes INSTALL META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
 

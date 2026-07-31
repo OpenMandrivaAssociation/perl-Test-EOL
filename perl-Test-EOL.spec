@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	2.02
-Release:	6
+Release:	7
 
 Summary:	Check the correct line endings in your project
 License:	GPL+ or Artistic
